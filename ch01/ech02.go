@@ -8,8 +8,9 @@ import (
 func main() {
 	//s, sep := "", ""
 	var s string
-	for _, sep := range os.Args[1:] {
+	for i, sep := range os.Args[1:] {
 		s += sep + " "
+		fmt.Printf("index: %d\tvalue: %s\n", i, sep)
 	}
 	fmt.Println(s)
 }
