@@ -20,13 +20,13 @@ func main() {
 			os.Exit(1)
 		}
 		fmt.Printf("Http Status is: %s\n", resp.Status)
-		b, err := io.Copy(os.Stdout, resp.Body) // io.Copy has more more memory consumption than ioutil.ReadAll
-		//b, err := ioutil.ReadAll(resp.Body)
+		bytes, err := io.Copy(os.Stdout, resp.Body) // io.Copy has much less memory consumption than ioutil.ReadAll
+		//bytes, err := ioutil.ReadAll(resp.Body)
 		resp.Body.Close()
 		if err != nil {
 			fmt.Fprintf(os.Stderr, "fetch reading %s: %v\n", url, err)
 			os.Exit(1)
 		}
-		fmt.Printf("%s", b)
+		fmt.Printf("total bytes read %d", bytes)
 	}
 }
