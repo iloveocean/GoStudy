@@ -11,7 +11,7 @@ func main() {
 	couts := make(map[string]int)
 	files := os.Args[1:]
 	if len(files) == 0 {
-		coutLinesFromStdin(os.Stdin, couts)
+		myCountLinesFromStdin(os.Stdin, couts)
 	} else {
 		for _, file := range files {
 			f, err := os.Open(file)
@@ -19,7 +19,7 @@ func main() {
 				fmt.Fprintf(os.Stderr, "dump02: %v\n", err)
 				continue
 			}
-			coutLinesFromFile(f, couts)
+			myCountLinesFromFile(f, couts)
 			f.Close()
 		}
 	}
@@ -30,7 +30,7 @@ func main() {
 	}
 }
 
-func coutLinesFromStdin(f *os.File, counts map[string]int) {
+func myCountLinesFromStdin(f *os.File, counts map[string]int) {
 	input := bufio.NewReader(f)
 	text, err := input.ReadString('\n')
 	if err == nil {
@@ -44,9 +44,12 @@ func coutLinesFromStdin(f *os.File, counts map[string]int) {
 	}
 }
 
-func coutLinesFromFile(f *os.File, counts map[string]int) {
+func myCountLinesFromFile(f *os.File, counts map[string]int) {
 	input := bufio.NewScanner(f)
 	for input.Scan() {
 		counts[input.Text()]++
 	}
+	/*for ii, tt := range counts {
+		fmt.Printf("%d\t%s\n", tt, ii)
+	}*/
 }
