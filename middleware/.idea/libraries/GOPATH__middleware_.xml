@@ -1,0 +1,54 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;middleware&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../go4.org" />
+      <root url="file://$PROJECT_DIR$/../../../loyocloud-account" />
+      <root url="file://$PROJECT_DIR$/../../../libPusher" />
+      <root url="file://$PROJECT_DIR$/../../../loyocloud-oa" />
+      <root url="file://$PROJECT_DIR$/../../../amqp" />
+      <root url="file://$PROJECT_DIR$/../../../loyocloud-recycle" />
+      <root url="file://$PROJECT_DIR$/../../../loyocloud-attachment" />
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../../loyocloud-jpush" />
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../../../gostudy" />
+      <root url="file://$PROJECT_DIR$/../../../github.com" />
+      <root url="file://$PROJECT_DIR$/../../../loyocloud-statistics" />
+      <root url="file://$PROJECT_DIR$/../../../qiniupkg.com" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../loyocloud-notify-statistics" />
+      <root url="file://$PROJECT_DIR$/../../../config-files" />
+      <root url="file://$PROJECT_DIR$/../../../loyocloud-utilities" />
+      <root url="file://$PROJECT_DIR$/../../../loyocloud-workerpool" />
+      <root url="file://$PROJECT_DIR$/../../../ali_oss" />
+      <root url="file://$PROJECT_DIR$/../../../loyocloud-infrastructure" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../go4.org" />
+      <root url="file://$PROJECT_DIR$/../../../loyocloud-account" />
+      <root url="file://$PROJECT_DIR$/../../../libPusher" />
+      <root url="file://$PROJECT_DIR$/../../../loyocloud-oa" />
+      <root url="file://$PROJECT_DIR$/../../../amqp" />
+      <root url="file://$PROJECT_DIR$/../../../loyocloud-recycle" />
+      <root url="file://$PROJECT_DIR$/../../../loyocloud-attachment" />
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../../loyocloud-jpush" />
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../../../gostudy" />
+      <root url="file://$PROJECT_DIR$/../../../github.com" />
+      <root url="file://$PROJECT_DIR$/../../../loyocloud-statistics" />
+      <root url="file://$PROJECT_DIR$/../../../qiniupkg.com" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../loyocloud-notify-statistics" />
+      <root url="file://$PROJECT_DIR$/../../../config-files" />
+      <root url="file://$PROJECT_DIR$/../../../loyocloud-utilities" />
+      <root url="file://$PROJECT_DIR$/../../../loyocloud-workerpool" />
+      <root url="file://$PROJECT_DIR$/../../../ali_oss" />
+      <root url="file://$PROJECT_DIR$/../../../loyocloud-infrastructure" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
